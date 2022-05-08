@@ -23,13 +23,13 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
     var typed = new Typed(".typing", {
-        strings: ["Front-End Developer", " Web Developer", "Freelancer"],
+        strings: ["Front-End Developer", " Web Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Front-End Developer", " Web Developer", "Freelancer"],
+        strings: ["Front-End Developer", " Web Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
