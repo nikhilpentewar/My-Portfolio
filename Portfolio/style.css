@@ -309,6 +309,20 @@ section .title::after{
     margin: 0 8px;
     opacity: 0.75;
 } 
+
+.footer .credit{
+   text-align: center;
+   border-top: var(--border);
+   padding-top: 2rem;
+   margin-top: 2rem;
+   font-size: 2rem;
+   color:var(--light-color);
+}
+
+.footer .credit span{
+   color:var(--blue);
+}
+
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
